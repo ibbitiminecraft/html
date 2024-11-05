@@ -278,7 +278,7 @@ background-clip: text;
     background: linear-gradient(
       to right,
       transparent,
-      /* Start transparent */ #4caf50 50%,
+      /* Start transparent */ #1d4eaf 50%,
       /* Middle color */ transparent /* End transparent */
     );
     position: relative;
