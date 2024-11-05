@@ -263,9 +263,26 @@ background-clip: text;
     text-align: center;
 }
 .sec-5-modal-2{
+    position: relative;
+    top: -110px;
     flex-direction: row;
     display: flex;
 }
 .sec-5-1{
     padding: 25px;
 }
+
+.gradient-line {
+    width: 100%;
+    height: 10px; /* Maximum height in the center */
+    background: linear-gradient(
+      to right,
+      transparent,
+      /* Start transparent */ #4caf50 50%,
+      /* Middle color */ transparent /* End transparent */
+    );
+    position: relative;
+    top: 0;
+    margin: 20px 0;
+    clip-path: ellipse(50% 50% at 50% 50%);
+  }
