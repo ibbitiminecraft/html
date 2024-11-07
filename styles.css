@@ -294,4 +294,10 @@ background-clip: text;
 .icon{
     font-size: 40px;
     text-align: center;
+    color: darkcyan;
+}
+.icon-1{
+    font-size: 40px;
+    text-align: center;
+    color: orangered;
 }
