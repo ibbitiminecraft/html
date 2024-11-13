@@ -389,3 +389,15 @@ background: linear-gradient(34deg, rgba(14,0,255,1) 46%, rgba(201,33,171,1) 63%)
     padding: 20px;
     height: fit-content;
 }
+
+.sec-6-img{
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+}
+
+.sec-6-img img{
+    height: 100%;
+    width: 100%;
+}
