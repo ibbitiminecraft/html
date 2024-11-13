@@ -362,4 +362,30 @@ background: linear-gradient(34deg, rgba(14,0,255,1) 46%, rgba(201,33,171,1) 63%)
     height: fit-content;
     width: fit-content;
     border-radius: 20px;
+    background-color: yellow;
+}
+.sec-6-gray{
+    border: 1px solid #808080;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: lightslategray; 
+}
+.circle-ovel-2{
+    border-radius: 10px;
+    border: 1px solid #808080;
+    height: fit-content;
+    background-color: lightslategray;
+    justify-content: flex-start;
+    width: fit-content;
+}
+.box-2{
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: fit-content;
 }
