@@ -423,3 +423,37 @@ background: linear-gradient(34deg, rgba(14,0,255,1) 46%, rgba(201,33,171,1) 63%)
     border: 1px solid gray;
     border-radius: 20px;
 }
+
+.sec-7-ending{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sec-7-details{
+    border: 1px solid #ddd;
+
+}
+
+.sec-7-details summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.sec-7-details summary::-webkit-details-marker {
+    display: none; /* Hides default arrow */
+  }
+
+  .sec-7-details .sec-7-plus-icon {
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  .sec-7-details[open] .sec-7-plus-icon {
+    transform: rotate(45deg); /* Change "+" to "x" when expanded */
+    transition: transform 0.3s ease;
+  }
