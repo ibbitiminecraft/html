@@ -430,7 +430,9 @@ background: linear-gradient(34deg, rgba(14,0,255,1) 46%, rgba(201,33,171,1) 63%)
 }
 
 .sec-7-details{
-    border: 1px solid #ddd;
+    border: 1px solid limegreen;
+    margin: 10px;
+    border-radius: 5px;
 
 }
 
